@@ -40,6 +40,22 @@ public class ValidateTitle extends base{
 
 	}
 	
+	@Test
+	
+	public void validateHomeTitleTwo() throws IOException
+	{
+
+
+        log.info("User 2 added more changes");
+		//two ways if obtaining files . 1 is inheritance. 2 is creating object to that class and invoke methids
+		LandingPage land=new LandingPage(driver);
+		log.info("Verifiing text merssage");
+		//compare the text from the browser with actual value, if there is a mismatch - print error
+		Assert.assertEquals(land.getTitle().getText(), "FEATURED 12COURSESsd");
+		log.info("Succeddfuly validates text message");
+
+	}
+	
 	
 
 	@Test
