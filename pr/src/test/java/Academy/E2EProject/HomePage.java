@@ -51,6 +51,8 @@ public class HomePage extends base{
 	public void teardown()
 	{
 		driver.close();
+		log.info("Adding new code for USer 2 git test");
+		log.info("GIt ptoject testing");
 	}
 
 	@DataProvider
