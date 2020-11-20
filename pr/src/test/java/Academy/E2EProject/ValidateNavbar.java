@@ -53,6 +53,7 @@ public class ValidateNavbar extends base{
 		log.info("Validated if menu bar is present");
 		
 		log.info("And some more changes By user 1 for Git test");
+		log.info("User 1 final commit");
 	}
 	
 	@AfterTest
