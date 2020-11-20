@@ -41,6 +41,20 @@ public class ValidateNavbar extends base{
 		log.info("And some more changes By user 1 for Git test");
 	}
 	
+	@Test
+	
+	public void validateAppNavBarOne() throws IOException
+	{
+		log.info("User 1 - America adding new test case for git");
+		//two ways if obtaining files . 1 is inheritance. 2 is creating object to that class and invoke methids
+		LandingPage land=new LandingPage(driver);
+		
+		Assert.assertTrue(land.getNavbar().isDisplayed());
+		log.info("Validated if menu bar is present");
+		
+		log.info("And some more changes By user 1 for Git test");
+	}
+	
 	@AfterTest
 	public void teardown()
 	{
