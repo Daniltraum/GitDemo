@@ -38,6 +38,7 @@ public class ValidateNavbar extends base{
 		Assert.assertTrue(land.getNavbar().isDisplayed());
 		log.info("Validated if menu bar is present");
 		
+		log.info("And some more changes By user 1 for Git test");
 	}
 	
 	@AfterTest

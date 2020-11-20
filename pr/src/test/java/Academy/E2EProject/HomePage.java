@@ -53,6 +53,8 @@ public class HomePage extends base{
 		driver.close();
 		log.info("Adding new code for USer 2 git test");
 		log.info("GIt ptoject testing");
+		
+		log.info("Adding new code from User 1 git test");
 	}
 
 	@DataProvider
