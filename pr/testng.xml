@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests"> <!-- to open all browsers /  test cases at the same time, use parallel -->
+ <listeners>
+ <listener class-name="Academy.E2EProject.Listeners"></listener>
+ </listeners> 
+  <test name="Validating Homepage">
+    <classes>
+      <class name="Academy.E2EProject.HomePage"/>
+      </classes>
+  </test>
+   <test name="Validating Navbar">
+      <classes>
+      <class name="Academy.E2EProject.ValidateNavbar"/>
+      </classes>
+   </test>
+   <test name="Validating Text">
+      <classes>
+      <class name="Academy.E2EProject.ValidateTitle"/>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

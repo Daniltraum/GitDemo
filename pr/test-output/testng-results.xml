@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15643" started-at="2020-11-18T23:47:17 PST" finished-at="2020-11-18T23:47:32 PST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15643" started-at="2020-11-18T23:47:17 PST" finished-at="2020-11-18T23:47:32 PST">
+      <class name="Academy.E2EProject.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.E2EProject.HomePage@68267da0]" name="initialize" is-config="true" duration-ms="3576" started-at="2020-11-18T23:47:17 PST" finished-at="2020-11-18T23:47:20 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavig(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@68267da0]" name="basePageNavig" duration-ms="6982" started-at="2020-11-18T23:47:20 PST" data-provider="getData" finished-at="2020-11-18T23:47:27 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestrict@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non-restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavig -->
+        <test-method status="PASS" signature="basePageNavig(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@68267da0]" name="basePageNavig" duration-ms="4727" started-at="2020-11-18T23:47:27 PST" data-provider="getData" finished-at="2020-11-18T23:47:32 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restrict@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[876543]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavig -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.E2EProject.HomePage@68267da0]" name="teardown" is-config="true" duration-ms="302" started-at="2020-11-18T23:47:32 PST" finished-at="2020-11-18T23:47:32 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.E2EProject.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

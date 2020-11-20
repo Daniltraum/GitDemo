@@ -1,0 +1,222 @@
+# Created at 2020-09-24T01:16:39.817
+Exiting self fork JVM. Received SHUTDOWN command from Maven shutdown hook.
+Thread dump before exiting the process (11180@NA-DVOZNIUK):
+"Exec Stream Pumper" 
+   java.lang.Thread.State: RUNNABLE
+        at java.io.FileInputStream.readBytes(Native Method)
+        at java.io.FileInputStream.read(FileInputStream.java:233)
+        at org.apache.commons.exec.StreamPumper.run(StreamPumper.java:107)
+        at java.lang.Thread.run(Thread.java:748)
+
+"Exec Stream Pumper" 
+   java.lang.Thread.State: RUNNABLE
+        at java.io.FileInputStream.readBytes(Native Method)
+        at java.io.FileInputStream.read(FileInputStream.java:255)
+        at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+        at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+        at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+        at java.io.FilterInputStream.read(FilterInputStream.java:107)
+        at org.apache.commons.exec.StreamPumper.run(StreamPumper.java:107)
+        at java.lang.Thread.run(Thread.java:748)
+
+"Exec Stream Pumper" 
+   java.lang.Thread.State: RUNNABLE
+        at java.io.FileInputStream.readBytes(Native Method)
+        at java.io.FileInputStream.read(FileInputStream.java:233)
+        at org.apache.commons.exec.StreamPumper.run(StreamPumper.java:107)
+        at java.lang.Thread.run(Thread.java:748)
+
+"Exec Stream Pumper" 
+   java.lang.Thread.State: RUNNABLE
+        at java.io.FileInputStream.readBytes(Native Method)
+        at java.io.FileInputStream.read(FileInputStream.java:255)
+        at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+        at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+        at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+        at java.io.FilterInputStream.read(FilterInputStream.java:107)
+        at org.apache.commons.exec.StreamPumper.run(StreamPumper.java:107)
+        at java.lang.Thread.run(Thread.java:748)
+
+"Exec Stream Pumper" 
+   java.lang.Thread.State: RUNNABLE
+        at java.io.FileInputStream.readBytes(Native Method)
+        at java.io.FileInputStream.read(FileInputStream.java:233)
+        at org.apache.commons.exec.StreamPumper.run(StreamPumper.java:107)
+        at java.lang.Thread.run(Thread.java:748)
+
+"Exec Stream Pumper" 
+   java.lang.Thread.State: RUNNABLE
+        at java.io.FileInputStream.readBytes(Native Method)
+        at java.io.FileInputStream.read(FileInputStream.java:255)
+        at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+        at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+        at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+        at java.io.FilterInputStream.read(FilterInputStream.java:107)
+        at org.apache.commons.exec.StreamPumper.run(StreamPumper.java:107)
+        at java.lang.Thread.run(Thread.java:748)
+
+"Exec Default Executor" 
+   java.lang.Thread.State: RUNNABLE
+        at java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+        at java.lang.ProcessImpl.waitFor(ProcessImpl.java:507)
+        at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:364)
+        at org.apache.commons.exec.DefaultExecutor.access$200(DefaultExecutor.java:48)
+        at org.apache.commons.exec.DefaultExecutor$1.run(DefaultExecutor.java:200)
+        at java.lang.Thread.run(Thread.java:748)
+
+"Exec Default Executor" 
+   java.lang.Thread.State: RUNNABLE
+        at java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+        at java.lang.ProcessImpl.waitFor(ProcessImpl.java:507)
+        at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:364)
+        at org.apache.commons.exec.DefaultExecutor.access$200(DefaultExecutor.java:48)
+        at org.apache.commons.exec.DefaultExecutor$1.run(DefaultExecutor.java:200)
+        at java.lang.Thread.run(Thread.java:748)
+
+"Exec Default Executor" 
+   java.lang.Thread.State: RUNNABLE
+        at java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+        at java.lang.ProcessImpl.waitFor(ProcessImpl.java:507)
+        at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:364)
+        at org.apache.commons.exec.DefaultExecutor.access$200(DefaultExecutor.java:48)
+        at org.apache.commons.exec.DefaultExecutor$1.run(DefaultExecutor.java:200)
+        at java.lang.Thread.run(Thread.java:748)
+
+"TestNG-tests-3" 
+   java.lang.Thread.State: WAITING
+        at sun.misc.Unsafe.park(Native Method)
+        at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+        at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+        at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+        at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:748)
+
+"TestNG-tests-2" 
+   java.lang.Thread.State: WAITING
+        at sun.misc.Unsafe.park(Native Method)
+        at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+        at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+        at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+        at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:748)
+
+"Forwarding newSession on session null to remote" 
+   java.lang.Thread.State: RUNNABLE
+        at java.net.SocketInputStream.socketRead0(Native Method)
+        at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+        at java.net.SocketInputStream.read(SocketInputStream.java:171)
+        at java.net.SocketInputStream.read(SocketInputStream.java:141)
+        at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+        at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+        at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282)
+        at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+        at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+        at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+        at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+        at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165)
+        at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+        at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+        at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+        at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+        at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+        at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+        at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+        at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+        at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+        at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:138)
+        at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:86)
+        at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:337)
+        at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+        at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+        at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+        at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+        at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:217)
+        at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:140)
+        at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+        at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+        at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+        at resources.base.initializeDriver(base.java:53)
+        at Academy.E2EProject.HomePage.initialize(HomePage.java:25)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+        at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+        at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+        at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+        at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
+        at org.testng.TestRunner.beforeRun(TestRunner.java:609)
+        at org.testng.TestRunner.run(TestRunner.java:580)
+        at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+        at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+        at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+        at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+        at org.testng.internal.thread.ThreadUtil$$Lambda$50/1947185929.call(Unknown Source)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:748)
+
+"surefire-forkedjvm-command-thread" 
+   java.lang.Thread.State: RUNNABLE
+        at sun.management.ThreadImpl.getThreadInfo1(Native Method)
+        at sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:178)
+        at org.apache.maven.surefire.booter.ForkedBooter.generateThreadDump(ForkedBooter.java:649)
+        at org.apache.maven.surefire.booter.ForkedBooter.access$400(ForkedBooter.java:82)
+        at org.apache.maven.surefire.booter.ForkedBooter$4.update(ForkedBooter.java:340)
+        at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.callListeners(CommandReader.java:423)
+        at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:364)
+        at java.lang.Thread.run(Thread.java:748)
+
+"Attach Listener" 
+   java.lang.Thread.State: RUNNABLE
+
+"Signal Dispatcher" 
+   java.lang.Thread.State: RUNNABLE
+
+"Finalizer" 
+   java.lang.Thread.State: WAITING
+        at java.lang.Object.wait(Native Method)
+        at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+        at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+        at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+
+"Reference Handler" 
+   java.lang.Thread.State: WAITING
+        at java.lang.Object.wait(Native Method)
+        at java.lang.Object.wait(Object.java:502)
+        at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+        at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+"main" 
+   java.lang.Thread.State: TIMED_WAITING
+        at sun.misc.Unsafe.park(Native Method)
+        at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+        at java.util.concurrent.FutureTask.awaitDone(FutureTask.java:426)
+        at java.util.concurrent.FutureTask.get(FutureTask.java:204)
+        at java.util.concurrent.AbstractExecutorService.invokeAll(AbstractExecutorService.java:289)
+        at org.testng.internal.thread.ThreadUtil.execute(ThreadUtil.java:74)
+        at org.testng.SuiteRunner.runInParallelTestMode(SuiteRunner.java:404)
+        at org.testng.SuiteRunner.privateRun(SuiteRunner.java:339)
+        at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+        at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+        at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+        at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+        at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+        at org.testng.TestNG.runSuites(TestNG.java:1039)
+        at org.testng.TestNG.run(TestNG.java:1007)
+        at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+        at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+        at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+        at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+        at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+        at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+        at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+
+

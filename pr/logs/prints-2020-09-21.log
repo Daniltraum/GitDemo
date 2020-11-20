@@ -1,0 +1,67 @@
+10:41:39.489 [main] INFO  resources.base - Non-restricted user
+10:41:43.176 [main] INFO  resources.base - Navigated to homepage
+10:41:44.125 [main] INFO  resources.base - Restricted user
+10:44:01.283 [main] INFO  resources.base - Driver is initialized
+10:44:06.532 [main] INFO  resources.base - Navigated to homepage
+10:44:09.589 [main] INFO  resources.base - Non-restricted user
+10:44:12.909 [main] INFO  resources.base - Navigated to homepage
+10:44:14.139 [main] INFO  resources.base - Restricted user
+10:45:58.474 [TestNG-tests-1] INFO  resources.base - Driver is initialized
+10:45:58.785 [TestNG-tests-3] INFO  resources.base - Driver is initialized
+10:45:59.099 [TestNG-tests-2] INFO  resources.base - Driver is initialized
+10:46:05.676 [TestNG-tests-1] INFO  resources.base - Navigated to homepage
+10:46:06.647 [TestNG-tests-3] INFO  resources.base - Navigated to homepage
+10:46:07.807 [TestNG-tests-2] INFO  resources.base - Navigated to homepage
+10:46:10.672 [TestNG-tests-2] INFO  resources.base - Validated if menu bar is present
+10:46:12.789 [TestNG-tests-1] INFO  resources.base - Non-restricted user
+10:46:16.583 [TestNG-tests-1] INFO  resources.base - Navigated to homepage
+10:46:18.401 [TestNG-tests-1] INFO  resources.base - Restricted user
+12:10:51.418 [TestNG-tests-2] INFO  resources.base - Driver is initialized
+12:10:51.589 [TestNG-tests-3] INFO  resources.base - Driver is initialized
+12:10:51.622 [TestNG-tests-1] INFO  resources.base - Driver is initialized
+12:11:04.315 [TestNG-tests-2] INFO  resources.base - Navigated to homepage
+12:11:04.591 [TestNG-tests-3] INFO  resources.base - Navigated to homepage
+12:11:04.886 [TestNG-tests-1] INFO  resources.base - Navigated to homepage
+12:11:06.313 [TestNG-tests-2] INFO  resources.base - Validated if menu bar is present
+12:11:09.551 [TestNG-tests-1] INFO  resources.base - Non-restricted user
+12:11:14.294 [TestNG-tests-1] INFO  resources.base - Navigated to homepage
+12:11:15.765 [TestNG-tests-1] INFO  resources.base - Restricted user
+23:25:04.088 [TestNG-tests-1] INFO  resources.base - Driver is initialized
+23:25:04.088 [TestNG-tests-3] INFO  resources.base - Driver is initialized
+23:25:04.480 [TestNG-tests-2] INFO  resources.base - Driver is initialized
+23:25:13.589 [TestNG-tests-2] INFO  resources.base - Navigated to homepage
+23:25:14.216 [TestNG-tests-3] INFO  resources.base - Navigated to homepage
+23:25:14.619 [TestNG-tests-1] INFO  resources.base - Navigated to homepage
+23:25:15.006 [TestNG-tests-2] INFO  resources.base - Validated if menu bar is present
+23:25:19.651 [TestNG-tests-1] INFO  resources.base - Non-restricted user
+23:25:23.660 [TestNG-tests-1] INFO  resources.base - Navigated to homepage
+23:25:25.370 [TestNG-tests-1] INFO  resources.base - Restricted user
+23:26:46.834 [TestNG-tests-3] INFO  resources.base - Driver is initialized
+23:26:46.834 [TestNG-tests-2] INFO  resources.base - Driver is initialized
+23:26:47.586 [TestNG-tests-1] INFO  resources.base - Driver is initialized
+23:26:55.412 [TestNG-tests-3] INFO  resources.base - Navigated to homepage
+23:26:55.514 [TestNG-tests-2] INFO  resources.base - Navigated to homepage
+23:27:26.412 [TestNG-tests-1] INFO  resources.base - Driver is initialized
+23:27:26.473 [TestNG-tests-2] INFO  resources.base - Driver is initialized
+23:27:26.664 [TestNG-tests-3] INFO  resources.base - Driver is initialized
+23:27:31.484 [TestNG-tests-1] INFO  resources.base - Navigated to homepage
+23:27:32.330 [TestNG-tests-2] INFO  resources.base - Navigated to homepage
+23:27:33.334 [TestNG-tests-3] INFO  resources.base - Navigated to homepage
+23:28:52.503 [TestNG-tests-2] INFO  resources.base - Driver is initialized
+23:28:52.506 [TestNG-tests-1] INFO  resources.base - Driver is initialized
+23:28:52.503 [TestNG-tests-3] INFO  resources.base - Driver is initialized
+23:29:03.516 [TestNG-tests-3] INFO  resources.base - Navigated to homepage
+23:29:04.277 [TestNG-tests-1] INFO  resources.base - Navigated to homepage
+23:29:04.993 [TestNG-tests-2] INFO  resources.base - Navigated to homepage
+23:29:06.348 [TestNG-tests-2] INFO  resources.base - Validated if menu bar is present
+23:29:11.550 [TestNG-tests-1] INFO  resources.base - Non-restricted user
+23:29:16.542 [TestNG-tests-1] INFO  resources.base - Navigated to homepage
+23:29:18.281 [TestNG-tests-1] INFO  resources.base - Restricted user
+23:47:09.211 [TestNG-tests-1] INFO  resources.base - Driver is initialized
+23:47:10.004 [TestNG-tests-3] INFO  resources.base - Driver is initialized
+23:47:10.068 [TestNG-tests-2] INFO  resources.base - Driver is initialized
+23:47:18.627 [TestNG-tests-1] INFO  resources.base - Navigated to homepage
+23:47:21.108 [TestNG-tests-3] INFO  resources.base - Navigated to homepage
+23:47:21.811 [TestNG-tests-2] INFO  resources.base - Navigated to homepage
+23:47:22.016 [TestNG-tests-2] INFO  resources.base - Validated if menu bar is present
+23:47:25.046 [TestNG-tests-1] INFO  resources.base - Non-restricted user
